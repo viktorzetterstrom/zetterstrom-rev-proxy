@@ -1,0 +1,32 @@
+{
+  "name": "zetterstrom-rev-proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy for my personal api:s",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "NODE_ENV=development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktorzetterstrom/zetterstrom-rev-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktorzetterstrom/zetterstrom-rev-proxy/issues"
+  },
+  "homepage": "https://github.com/viktorzetterstrom/zetterstrom-rev-proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^2.0.1"
+  }
+}
